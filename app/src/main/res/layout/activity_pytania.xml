@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabi.quiz.Pytania"
+    android:background="#81c7a1"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:orientation="vertical"
+            android:id="@+id/textKtoto"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Kto to?"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/czaknoris"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:src="@mipmap/chuck_norris"
+            android:layout_weight="0.67" />
+
+        <RadioGroup
+            android:id="@+id/grupaChuck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chuck Norris"
+                android:id="@+id/odpChuck"
+                android:textSize="20dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spiderman"
+                android:id="@+id/odpSpider"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textCoSieStanie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Co się stanie?"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/coSieStanie"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/co_jesli"
+            android:layout_weight="0.66" />
+
+        <RadioGroup
+            android:id="@+id/grupaCoBedzie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bedzie ciepło"
+                android:id="@+id/odpCieplo"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bedzie zimno"
+                android:id="@+id/odpZimno"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:orientation="vertical"
+            android:id="@+id/textMysz"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Co to jest?"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/obrMysz"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/mysz"
+            android:layout_weight="0.66" />
+
+        <RadioGroup
+            android:id="@+id/grupaMysz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mysz komputerowa"
+                android:id="@+id/odpMysz"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zepsuta kostka Rubika"
+                android:id="@+id/odpKostka"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:orientation="vertical"
+            android:id="@+id/textWonsz"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Co to jest?"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/obrWonsz"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/wonsz"
+            android:layout_weight="0.66" />
+
+        <RadioGroup
+            android:id="@+id/grupaWonsz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wąż"
+                android:id="@+id/odpWaz"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jadowity banan"
+                android:id="@+id/odpBanan"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:orientation="vertical"
+            android:id="@+id/textJez"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Co to jest?"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/obrjez"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/jez"
+            android:layout_weight="0.66" />
+
+        <RadioGroup
+            android:id="@+id/grupaJez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wykałaczki"
+                android:id="@+id/odpWykalaczki"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jeż"
+                android:id="@+id/odpJez"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonWynik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wynik"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+        <!--android:layout_below="@+id/imageView"-->
+
+    </LinearLayout>
+</ScrollView>
